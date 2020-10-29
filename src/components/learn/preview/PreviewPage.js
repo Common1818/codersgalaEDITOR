@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 
 import { Helmet } from "react-helmet";
 import { Redirect } from "react-router-dom";

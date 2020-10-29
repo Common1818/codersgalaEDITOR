@@ -12,8 +12,11 @@ const DeleteButton = (props) => {
   const { dispatch } = useContext(TopicsContext);
 
   const handleDelete = (e) => {
-    setDeleting(true);
-    DeleteTopicFunction(collectionName, DocId, dispatch);
+    const confirm = window.prompt("You sure want to delete? Y or N ");
+    if (confirm === "Y") {
+      setDeleting(true);
+      DeleteTopicFunction(collectionName, DocId, dispatch);
+    }
   };
 
   const width = window.innerWidth;

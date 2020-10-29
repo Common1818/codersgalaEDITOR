@@ -6,7 +6,7 @@ const SpecialityPreviewArticle = ({
   requiredSpeciality,
   articles,
 }) => {
-  console.log(requiredSpeciality);
+  // console.log(requiredSpeciality);
   return (
     <div className="card">
       <h1 className="material-icons card-header ">

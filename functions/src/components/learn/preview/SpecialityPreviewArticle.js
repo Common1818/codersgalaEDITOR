@@ -15,7 +15,7 @@ var SpecialityPreviewArticle = function SpecialityPreviewArticle(_ref) {
   var Specialities = _ref.Specialities,
       requiredSpeciality = _ref.requiredSpeciality,
       articles = _ref.articles;
-  console.log(requiredSpeciality);
+  // console.log(requiredSpeciality);
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "card"
   }, /*#__PURE__*/_react.default.createElement("h1", {

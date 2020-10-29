@@ -12,6 +12,18 @@
     display: none;
 }
 
+.card-no-body img {
+    display: none !important;
+}
+
+.card-no-body h1 .ql-size-26 {
+    font-size: 2rem !important;
+}
+
+.card-no-body iframge.ql-video {
+    display: none !important;
+}
+
 .speciality-container {
     overflow-x: hidden;
     min-height: 100vh;

@@ -2,12 +2,14 @@
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _react = _interopRequireWildcard(require("react"));
 
 var _jquery = _interopRequireDefault(require("jquery"));
 
@@ -18,7 +20,6 @@ var PreviewArticle = function PreviewArticle(_ref) {
       SelectedArticle = _ref.SelectedArticle,
       specialityName = _ref.specialityName;
   var slicedArticle = SelectedArticle.ArticleName;
-  console.log(slicedArticle.replace(/\s/g, "-"));
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "card"
   }, /*#__PURE__*/_react.default.createElement("div", null, TopicNames && SelectedArticle && TopicNames.map(function (item) {
@@ -32,7 +33,7 @@ var PreviewArticle = function PreviewArticle(_ref) {
       }, item.Name))), /*#__PURE__*/_react.default.createElement("hr", null), /*#__PURE__*/_react.default.createElement("div", {
         className: "ql-snow"
       }, /*#__PURE__*/_react.default.createElement("div", {
-        className: "card-no-body ql-editor ",
+        className: "card-no-body ql-editor",
         dangerouslySetInnerHTML: {
           __html: SelectedArticle.ArticleContent
         }

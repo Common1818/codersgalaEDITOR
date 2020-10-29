@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 
 const PreviewArticle = ({ TopicNames, SelectedArticle, specialityName }) => {
   const slicedArticle = SelectedArticle.ArticleName;
-  console.log(slicedArticle.replace(/\s/g, "-"));
   return (
     <div className="card">
       <div>
@@ -24,7 +23,7 @@ const PreviewArticle = ({ TopicNames, SelectedArticle, specialityName }) => {
                   <hr />
                   <div className="ql-snow">
                     <div
-                      className="card-no-body ql-editor "
+                      className="card-no-body ql-editor"
                       dangerouslySetInnerHTML={{
                         __html: SelectedArticle.ArticleContent,
                       }}

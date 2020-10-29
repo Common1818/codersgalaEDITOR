@@ -39,8 +39,12 @@ var DeleteButton = function DeleteButton(props) {
       dispatch = _useContext.dispatch;
 
   var handleDelete = function handleDelete(e) {
-    setDeleting(true);
-    (0, _topicFunctions.DeleteTopicFunction)(collectionName, DocId, dispatch);
+    var confirm = window.prompt("You sure want to delete? Y or N ");
+
+    if (confirm === "Y") {
+      setDeleting(true);
+      (0, _topicFunctions.DeleteTopicFunction)(collectionName, DocId, dispatch);
+    }
   };
 
   var width = window.innerWidth;
