@@ -14,7 +14,11 @@ var TopSlide = function TopSlide() {
     className: "top-slide"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "ovr-wave"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Hello there,"), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    style: {
+      textAlign: "center"
+    }
+  }, "Hello there,"), /*#__PURE__*/_react.default.createElement("div", {
     className: "subheading-about"
   }, "We created ", /*#__PURE__*/_react.default.createElement("span", {
     className: "logo text-dark"

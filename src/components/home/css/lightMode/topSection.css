@@ -413,7 +413,7 @@ a:hover {
     .floatingHero {
         background: url("https://luna1.co/5872dc.png") repeat-x bottom;
         background-size: cover;
-        height: 90vh;
+        height: 70vh;
         overflow: hidden;
         position: relative;
         width: 100%;

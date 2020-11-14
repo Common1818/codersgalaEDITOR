@@ -1,4 +1,4 @@
-.full-view-article {
+ .full-view-article {
     background-color: #fff;
     border-top: 1px solid #ef5166;
     color: #313639;
@@ -123,4 +123,17 @@ SVG Icons - svgicons.sparkk.fr
     .share-toggle {
         display: block;
     }
+}
+
+div.buttons{
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+
+}
+
+div.buttons a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Poppins";
 }

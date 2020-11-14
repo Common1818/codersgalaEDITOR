@@ -45,7 +45,7 @@ var ProfileCard = function ProfileCard(_ref) {
     style: {
       width: "25px"
     },
-    src: "https://www.svgrepo.com/show/183608/twitter.svg",
+    src: "https://www.svgrepo.com/show/9911/linkedin.svg",
     alt: ""
   }))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
     target: "__blank",

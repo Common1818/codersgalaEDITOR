@@ -4,7 +4,7 @@ const TopSlide = () => {
   return (
     <div className="top-slide">
       <div className="ovr-wave">
-        <h1>Hello there,</h1>
+        <h1 style={{textAlign:"center"}}  >Hello there,</h1>
 
         <div className="subheading-about">
           We created <span className="logo text-dark">Coders Gala</span> to

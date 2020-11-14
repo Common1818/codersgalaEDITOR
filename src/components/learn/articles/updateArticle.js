@@ -65,6 +65,22 @@ class UpdateArticle extends React.Component {
                 className="form-control"
               />
               <br />
+              <input
+                  type="text"
+                  id="Next"
+                  placeholder="next link"
+                  className="form-control"
+                  onChange={handleChange}
+                />
+                <br />
+                <input
+                  type="text"
+                  id="Previous"
+                  placeholder="previous link"
+                  className="form-control"
+                  onChange={handleChange}
+                />
+                <br />
 
               <div className="ql-snow">
                 {" "}

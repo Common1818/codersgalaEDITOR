@@ -10,6 +10,8 @@ const AddArticle = (props) => {
   const [ArticleContent, setArticleContent] = useState("");
   const [ArticleName, setArticleName] = useState("");
   const [keywords, setArticleKeywords] = useState("");
+  const [next,setNext] = useState("")
+  const [prev,setPrev] = useState("")
   const [Loading, setLoading] = useState(false);
   const { SpecialityId, id } = props.match.params;
 
@@ -38,6 +40,9 @@ const AddArticle = (props) => {
         SpecialityId: SpecialityId,
         TopicId: id,
         keywords,
+        Next:next,
+        Previous:prev,
+        
       },
       dispatch
     );
@@ -75,6 +80,26 @@ const AddArticle = (props) => {
                   className="form-control"
                   onChange={(e) => {
                     setArticleName(e.target.value);
+                  }}
+                />
+                <br />
+                <input
+                  type="text"
+                  id="next"
+                  placeholder="next link"
+                  className="form-control"
+                  onChange={(e) => {
+                    setNext(e.target.value);
+                  }}
+                />
+                <br />
+                <input
+                  type="text"
+                  id="prev"
+                  placeholder="previous link"
+                  className="form-control"
+                  onChange={(e) => {
+                    setPrev(e.target.value);
                   }}
                 />
                 <br />

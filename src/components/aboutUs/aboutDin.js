@@ -14,21 +14,16 @@ const AboutDin = () => {
           <h4>
             What is <span className="">Coders Gala</span>?
           </h4>
-          sit amet consectetur adipisicing elit. Animi dolor explicabo optio
-          fugiat quo numquam! Mollitia, facilis aperiam nihil voluptate
-          consequuntur dolore, hic ab totam blanditiis lorem30 accusantium,
-          magnam odit eum?
-        </div>
+          CodersGala is a free to use learning platform ,that aims to provide the best free resources to learn from .CodersGala 
+          contains a host of articles and videos in a proper order that'll help you learn effortlessly.
+               </div>
         <br />
         <div className="why-din">
-          <h4>
+          <h4> 
             Why <span className="">Coders Gala</span>?
           </h4>
-          sit amet consectetur adipisicing elit. Animi dolor explicabo optio
-          fugiat quo numquam! Mollitia, facilis aperiam nihil voluptate
-          consequuntur dolore, hic ab totam blanditiis accusantium, magnam odit
-          eum?
-        </div>
+          While there are plethora of paid courses on internet that guarentee success, but do you really need them? Almost all of the content paid courses provide you is available on the internet but is somewhat scattered , that's where CodersGala comes to rescue.
+          </div>
         <div className="what-din">
           <br />
           <h4>

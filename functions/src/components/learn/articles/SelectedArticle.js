@@ -36,6 +36,7 @@ var _shareArticle = _interopRequireDefault(require("./shareArticle"));
 /* eslint-disable */
 var SelectedArticle = function SelectedArticle(props) {
   var articles = props.articles;
+  console.log(articles);
   var value;
 
   if (typeof window !== "undefined") {
@@ -128,6 +129,14 @@ var SelectedArticle = function SelectedArticle(props) {
         },
         sm: 8
       }, /*#__PURE__*/_react.default.createElement("div", {
+        className: "buttons"
+      }, /*#__PURE__*/_react.default.createElement("a", {
+        target: "_blank",
+        href: article.Next
+      }, "Next"), /*#__PURE__*/_react.default.createElement("a", {
+        target: "_blank",
+        href: article.Previous
+      }, "Previous")), /*#__PURE__*/_react.default.createElement("div", {
         className: "ql-snow"
       }, /*#__PURE__*/_react.default.createElement("div", {
         className: "full-article ql-editor",

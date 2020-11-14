@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+// import logo10 from "./logo10.PNG";
+
 const TopSection = () => {
   return (
     <section className="floatingHero">
@@ -24,10 +26,14 @@ const TopSection = () => {
         <header className="floatingHero-header">
           <p className="floatingHero-label">This is...</p>
 
-          <h1 className="floatingHero-headline ">Coders Gala</h1>
+          <h1 className="floatingHero-headline ">
+            <div className="cg_logo"></div>
+          </h1>
 
           <p className="floatingHero-description">
-            Coders Gala is a free to use platform, which will help and guide you, not only to learn web development but become a free-lancer like us. So click on play and embark a new journey with us. 
+            Coders Gala is a free to use platform, which will help and guide
+            you, not only to learn web development but become a free-lancer like
+            us. So click on play and embark a new journey with us.
           </p>
 
           <NavLink to="/learn">

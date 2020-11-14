@@ -111,6 +111,18 @@ var UpdateArticle = /*#__PURE__*/function (_React$Component) {
         onChange: handleChange,
         placeholder: "Topic Name",
         className: "form-control"
+      }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("input", {
+        type: "text",
+        id: "Next",
+        placeholder: "next link",
+        className: "form-control",
+        onChange: handleChange
+      }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("input", {
+        type: "text",
+        id: "Previous",
+        placeholder: "previous link",
+        className: "form-control",
+        onChange: handleChange
       }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("div", {
         className: "ql-snow"
       }, " ", /*#__PURE__*/_react.default.createElement(_editor.default, {

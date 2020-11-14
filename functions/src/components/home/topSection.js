@@ -11,6 +11,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactRouterDom = require("react-router-dom");
 
+// import logo10 from "./logo10.PNG";
 var TopSection = function TopSection() {
   return /*#__PURE__*/_react.default.createElement("section", {
     className: "floatingHero"
@@ -34,7 +35,9 @@ var TopSection = function TopSection() {
     className: "floatingHero-label"
   }, "This is..."), /*#__PURE__*/_react.default.createElement("h1", {
     className: "floatingHero-headline "
-  }, "Coders Gala"), /*#__PURE__*/_react.default.createElement("p", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "cg_logo"
+  })), /*#__PURE__*/_react.default.createElement("p", {
     className: "floatingHero-description"
   }, "Coders Gala is a free to use platform, which will help and guide you, not only to learn web development but become a free-lancer like us. So click on play and embark a new journey with us."), /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
     to: "/learn"

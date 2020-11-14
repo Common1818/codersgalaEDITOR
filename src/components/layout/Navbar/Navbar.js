@@ -2,6 +2,7 @@
 import React, { useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { Accordion, Button, Col, Row } from "react-bootstrap";
+// import logo from './logo.jpeg'
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import SignedOutLinks from "./SignedOutLinks";
@@ -10,6 +11,10 @@ import SignedInLinks from "./SignedInLinks";
 
 // jQuery-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // import $ from "jquery";
+
+// logos
+// import logo1 from "./logo1.PNG";
+//
 
 import { AuthContext } from "../../../contexts/authContext";
 import { getProfile } from "../../../crudFunctions/authFunctions";
@@ -97,7 +102,7 @@ const Navbar = (props) => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <Link to="/">
                   <span className="navbar-brand logo  nav-link">
-                    Coders Gala
+                    CodersGala
                   </span>
                 </Link>
                 <div

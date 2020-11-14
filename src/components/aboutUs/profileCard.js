@@ -33,7 +33,7 @@ const ProfileCard = ({ data }) => {
             <a target="__blank" href={data.twitterUrl}>
               <img
                 style={{ width: "25px" }}
-                src="https://www.svgrepo.com/show/183608/twitter.svg"
+                src="https://www.svgrepo.com/show/9911/linkedin.svg"
                 alt=""
               />
             </a>

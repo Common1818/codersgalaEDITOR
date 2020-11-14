@@ -40,10 +40,20 @@ var AddArticle = function AddArticle(props) {
       keywords = _useState6[0],
       setArticleKeywords = _useState6[1];
 
-  var _useState7 = (0, _react.useState)(false),
+  var _useState7 = (0, _react.useState)(""),
       _useState8 = (0, _slicedToArray2.default)(_useState7, 2),
-      Loading = _useState8[0],
-      setLoading = _useState8[1];
+      next = _useState8[0],
+      setNext = _useState8[1];
+
+  var _useState9 = (0, _react.useState)(""),
+      _useState10 = (0, _slicedToArray2.default)(_useState9, 2),
+      prev = _useState10[0],
+      setPrev = _useState10[1];
+
+  var _useState11 = (0, _react.useState)(false),
+      _useState12 = (0, _slicedToArray2.default)(_useState11, 2),
+      Loading = _useState12[0],
+      setLoading = _useState12[1];
 
   var _props$match$params = props.match.params,
       SpecialityId = _props$match$params.SpecialityId,
@@ -77,7 +87,9 @@ var AddArticle = function AddArticle(props) {
       ArticleName: ArticleName,
       SpecialityId: SpecialityId,
       TopicId: id,
-      keywords: keywords
+      keywords: keywords,
+      Next: next,
+      Previous: prev
     }, dispatch);
   };
 
@@ -115,6 +127,22 @@ var AddArticle = function AddArticle(props) {
     className: "form-control",
     onChange: function onChange(e) {
       setArticleName(e.target.value);
+    }
+  }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("input", {
+    type: "text",
+    id: "next",
+    placeholder: "next link",
+    className: "form-control",
+    onChange: function onChange(e) {
+      setNext(e.target.value);
+    }
+  }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("input", {
+    type: "text",
+    id: "prev",
+    placeholder: "previous link",
+    className: "form-control",
+    onChange: function onChange(e) {
+      setPrev(e.target.value);
     }
   }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("input", {
     type: "text",

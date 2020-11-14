@@ -23,7 +23,7 @@ const About = () => {
         <meta name="robots" content="index follow" />
       </Helmet>
       <div className="about-page">
-        <div className="banner-ad-right"></div>
+        
         <div className="scroller">
           <section className="about-header">
             <TopSlide />

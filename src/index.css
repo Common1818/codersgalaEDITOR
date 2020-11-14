@@ -136,3 +136,9 @@ element.style {
     display: block;
     margin: 0px auto;
 }
+
+div.banner-ad-right,
+div.banner-ad-left,
+div.banner-ad-bottom {
+    display: none !important;
+}

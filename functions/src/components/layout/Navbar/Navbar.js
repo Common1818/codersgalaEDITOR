@@ -30,10 +30,14 @@ var _modeContext = require("../../../contexts/modeContext");
 var _jquery = _interopRequireDefault(require("jquery"));
 
 /* eslint-disable */
+// import logo from './logo.jpeg'
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // jQuery-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // import $ from "jquery";
+// logos
+// import logo1 from "./logo1.PNG";
+//
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 var Navbar = function Navbar(props) {
   var _useContext = (0, _react.useContext)(_authContext.AuthContext),
@@ -114,7 +118,7 @@ var Navbar = function Navbar(props) {
     to: "/"
   }, /*#__PURE__*/_react.default.createElement("span", {
     className: "navbar-brand logo  nav-link"
-  }, "Coders Gala")), /*#__PURE__*/_react.default.createElement("div", {
+  }, "CodersGala")), /*#__PURE__*/_react.default.createElement("div", {
     id: "switch",
     onClick: function onClick() {
       if (localStorage.getItem("mode") === "light") {

@@ -41,8 +41,6 @@ var About = function About() {
   })), /*#__PURE__*/_react.default.createElement("div", {
     className: "about-page"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "banner-ad-right"
-  }), /*#__PURE__*/_react.default.createElement("div", {
     className: "scroller"
   }, /*#__PURE__*/_react.default.createElement("section", {
     className: "about-header"

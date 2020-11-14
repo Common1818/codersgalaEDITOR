@@ -14,9 +14,11 @@ import "react-quill/dist/quill.snow.css";
 import $ from "jquery";
 import Footer from "../../layout/Footer/Footer";
 import ShareArticle from "./shareArticle";
-
+ 
 const SelectedArticle = (props) => {
   const articles = props.articles;
+  console.log(articles)
+
   var value;
 
   if (typeof window !== "undefined") {
@@ -76,8 +78,10 @@ const SelectedArticle = (props) => {
         {articles &&
           articles.map((article) => {
             if (article.ArticleName === NId) {
+             
               return (
                 <div>
+                
                   <Helmet>
                     <title>{article.ArticleName}</title>
                     <meta name="description" content={article.keywords} />
@@ -100,6 +104,10 @@ const SelectedArticle = (props) => {
                     </Col>
 
                     <Col id="top" style={{ padding: "0px" }} sm={8}>
+                  <div className="buttons">
+                     <a target="_blank" href={article.Next} >Next</a> 
+                    <a target="_blank" href={article.Previous} >Previous</a>
+                  </div>
                       <div className="ql-snow">
                         <div
                           className="full-article ql-editor"

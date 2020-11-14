@@ -14,6 +14,28 @@ a:hover {
     line-height: 1.5;
 }
 
+.cg_logo {
+    background-image: url("http://drive.google.com/uc?export=view&id=1ApzRnI3Y97gwCJOIVUNubK0TkMwOrTzB");
+    width: 150px;
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+body.dark .cg_logo {
+    background-image: url("http://drive.google.com/uc?export=view&id=1jjrBypJ7OMXDQkRhaBejgkldfQAUZm2I");
+    width: 150px;
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
 .floatingHero {
     background: url("https://luna1.co/5872dc.png") repeat-x bottom;
     background-size: cover;
@@ -31,6 +53,20 @@ a:hover {
     padding-top: 80px;
     /* position: relative;
     width: calc(100% - 32px); */
+}
+
+@media(max-width:1510px) {
+    .floatingHero-header {
+        position: relative;
+        top: -100px !important;
+    }
+}
+
+@media(max-width:960px) {
+    .floatingHero-header {
+        position: relative;
+        top: 10px !important;
+    }
 }
 
 @media (min-width: 48em) {
