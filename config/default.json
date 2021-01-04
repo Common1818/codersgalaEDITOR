@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://priya:priya123@cluster0.narae.mongodb.net/codersgala?retryWrites=true&w=majority",
+    "jwtSecret": "Pia"
+}
